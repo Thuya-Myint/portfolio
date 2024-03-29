@@ -1,0 +1,627 @@
+@font-face {
+    font-family: font1;
+    src: url(font/ethnocentric/ethnocentric\ rg.otf);
+}
+body
+{
+    background-color: black;
+}
+#mainNav
+{
+    
+    width: 17%;
+    height: 100vh;
+    background-color: #a6ff00;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.logo,.navigation,#followus,#contact
+{
+    color: #000000;
+}
+
+.navigation,#followus,#contact
+{
+    text-decoration: none;
+    font-size: 130%;
+    margin-left: 15%;
+    padding: 5%;  
+    transition: all 0.4s;
+}
+#home:hover,#inquiry:hover
+{
+    background-color: #000000;
+    color: #a6ff00;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation,#followus,.addcontent,.myinfobody,#cv,.textinfo,#edubg,.educhild1,#sugtext,#projecttext,#servicesText
+{
+    font-family: 'font1','Courier New', Courier, monospace;
+}
+#followus
+{
+    margin-top: 10%;
+}
+.logo
+{
+    margin-left:16.6% ;
+    font-size: 180%;
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+.logo:hover
+{
+    opacity: 1;
+}
+#pflio
+{
+    background-color: black;
+    color: #a6ff00;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#email
+{
+    text-decoration: none;
+    color: #a6ff00;
+    opacity: 0.6; 
+    transition: all 0.4s;
+}
+#email:hover
+{
+    opacity: 1;
+}
+#address
+{
+    margin-top: 180%;
+}
+#mainmail
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0.7rem;
+}
+#phno
+{
+    text-align: center;
+    padding-top: 5%;
+}
+#cr
+{
+    text-align: center;
+    padding-top: 8%;
+}
+#topbody
+{
+    width: 82%;
+    height: 22vh;
+    background-color: #a6ff00;
+    position: absolute;
+    top:1%;
+    left: 18%;
+    border-top-right-radius: 1rem;  
+    /* border-bottom-right-radius: 1rem; */
+    display: flex;
+    align-items: center;
+}
+#profilephoto
+{
+    width: 10%;
+    height: 10vh;
+    clip-path: circle(45.1% at 51% 50%);
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s;
+}
+#profile
+{
+    margin-bottom:10%;
+    transform: scale(1.3);
+}
+#profilephoto:hover
+{
+    transform: scale(1.3);   
+}
+#myinfomain
+{
+    width: 32%;
+    height: 17vh;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-left: 3%;
+}
+#myinfomain,#myImg
+{
+    background-color: black;
+}
+#myinfomain::-webkit-scrollbar
+{
+    width: 0px;
+    height: 0px;
+}
+.myinfobody
+{
+    color: #a6ff00;
+    font-size: 140%;
+    padding: 3%;
+    text-align: center;
+    
+}
+#cv
+{
+    width: 8%;
+    height: 3vh;
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    font-size: 70%;
+    color: black;
+    background-color: #a6ff00;
+    border-radius: 1rem;
+    transition: all 0.5s;
+    box-shadow: 2px 4px 15px black;
+}
+#myImg
+{
+    width: 50%;
+    height: 19vh;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* border: 3px solid black; */
+    border-radius: 1rem;
+}
+#myImg::-webkit-scrollbar,#projectbox::-webkit-scrollbar
+{
+    width: 0px;
+    height: 0px;
+}
+.photo
+{
+    height: 16vh;
+    transition: all 0.6s;
+    border: 2px solid black;
+}
+#myImg:hover,#myinfomain:hover,#moreinfo:hover,#projectbox:hover
+{
+    overflow: auto;
+    cursor: pointer;
+}
+.photo:hover
+{
+    transform: scale(1.3);
+}
+#cv:hover
+{
+    transform: scale(1.2);
+}
+#moreinfo
+{
+    width: 32%;
+    height: 52.5vh;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    overflow: hidden;
+}
+#edubg
+{
+    color: #a6ff00;
+    font-size: 130%;
+    text-align: center;
+    margin-top: 3%;
+}
+.educhild1
+{
+    width: 90%;
+    height: 40vh;
+    margin-left: 4.5%;
+    margin-top: 3%;
+    background-color: #2f2f30eb;
+    color: #a6ff00;
+    text-align: center;
+    padding-top: 5%;
+    overflow: auto; 
+    border-radius: 2rem;  
+}
+.educhild1::-webkit-scrollbar
+{
+    width: 0px;
+    height: 0px;
+
+}
+.educhild1::-webkit-scrollbar-track-piece
+{
+    background-color: #000000;
+}
+#firstedu1,#firstedu2,#firstedu3,#firstedu4,#firstedu5,#firstedu6,#firstedu7
+{
+    color: white;
+    font-size: 90%;
+}
+#secedu1,#secedu2,#secedu3,#secedu4,#secedu5,#secedu6,#secedu7
+{
+    font-size: 110%;
+}
+.learn
+{
+   font-size: 140%; 
+}
+#suggestion
+{
+    width: 28.6%;
+    height: 25vh;
+    background-color: #2f2f30eb;
+    position: absolute;
+    top: 76%;
+    left: 19.5%;
+    border-radius: 1rem;
+}
+#sugtext
+{
+    text-align: center;
+    margin-top: 3%;
+}
+#msgbox,#embox
+{
+    font-size: 130%;
+}
+#msgbox
+{
+    background-color: white;
+    height: 10vh;
+    margin-left: 8%;
+    margin-top: 17%;
+    
+    /* color: black;     */
+}
+#embox
+{
+    position: absolute;
+    top: 22%;
+    left: 8%;
+    height: 4vh;
+    width: 83%;
+}
+#submit
+{
+    margin-left:9% ;
+    height: 5vh;
+    width: 20%;
+    font-size: 100%;
+    
+
+}
+input[type="text"],#submit
+{ 
+    border-radius: 1rem;
+    box-shadow: 2px 4px 20px black;
+}
+#projecttext,#projectbox
+{
+    position: absolute;
+    left: 70%;
+    top: 27%;
+   
+    
+}
+#projectbox
+{ 
+    width: 45%;
+    height: 70vh;
+    background-color: #2f2f30eb;
+    top: 31%;
+    left: 53.2%;
+    border-radius: 1rem;
+    overflow: hidden;    
+}
+.learn,#sugtext,#projecttext,#servicesText
+{
+    color: #a6ff00;
+}
+li
+{
+    list-style:disc;
+}
+.services
+{
+    color: white;
+    font-size: 110%;
+}
+#services1
+{
+    padding-top: 10%;
+}
+#services2
+{
+    padding-top: 15%;
+}
+#services3
+{
+    padding-top: 15%;
+}
+#sugtext,#projecttext
+{
+    font-size: 120%;
+}
+.projectimg
+{
+    width: 95%;
+    height: 70%;
+    padding: 1.5% 0%;
+    margin-left: 2.4%;
+    box-shadow: 2px 3px 15px black;   
+}
+.projectimg,#projectbox:hover
+{
+    transition: all 0.5s;
+}
+.projectimg:hover,#projectbox:hover
+{
+    transform: scale(1.1);
+    background-color: #000000;
+}
+.firstpart
+{
+    color: white;
+}
+#servicesMain
+{
+    width: 14%;
+    height: 30vh;
+    background-color: #000000;
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    border-radius: 1rem;
+}
+#servicesText
+{
+    font-size: 170%;
+    text-align: center;
+}
+@media all and (max-width:900px) 
+{
+    body
+    {
+        height: 220vh;
+    }
+    #mainNav
+    {
+        position: absolute;
+        width: 48%;
+        height: 62vh; 
+    }
+    #address
+    {
+        margin-top: 10%;
+    }
+    #topbody
+    {
+        width: 48%;
+        height: 62vh;
+        position: absolute;
+        left: 51%;
+        top: 0.8%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom-right-radius: 1rem;
+    }
+   
+    #myinfomain
+    {
+        width: 90%;
+        margin-top: 6%;
+    }
+    #profilephoto
+    {
+        transform: scale(1.5);
+        margin-top: 2%;
+    }
+    #myImg
+    {
+        margin-top: 3%;
+        width: 90%;
+        height: 40%;
+    }
+    #cv
+    {
+        margin-top: 20%;
+        margin-left: 34%;
+        width: 30%;
+        font-size: 60%;
+    }
+    .photo
+    {
+        width: 80%;
+        height: 80%;
+    }
+    #moreinfo
+    {
+        position: absolute;
+        top: 65%;
+        left: 6%;
+        width: 90%;
+    }
+    #projecttext,#projectbox,#submit,#embox,#msgbox
+    {
+        position: absolute;
+    }
+    #projecttext
+    {
+        top: 120%;
+        left: 40%;
+    }
+    #projectbox
+    {
+        top: 125%;
+        left: 2%;
+        width: 96%;
+        height: 50vh;
+    }
+    .projectimg
+    {
+        width: 96%;
+        height: 100%;
+    }
+    #suggestion
+    {
+        position: absolute;
+        top: 180%;
+        left: 5%;
+        width: 90%;
+        height: 25vh;
+    }
+    #submit
+    {
+        top: 90%;
+        left: 32%;
+    }
+    #msgbox
+    {
+        left: 0%;
+        top: 2%;
+        height: 10vh;
+        width: 60%;
+    }
+    #embox
+    {
+        top: 22%;
+    }
+    #submit
+    {
+        top: 70%;
+        left: 65%;
+    }
+}
+@media all and (max-width:600px) 
+{
+    body
+    {
+        height: 280vh;
+    }
+    #mainNav,#topbody,#moreinfo,#projecttext,#projectbox
+    {
+        width: 100%;
+        position: absolute;
+        left: 0%; 
+        border-radius: 0%;  
+    }
+    #mainNav
+    {
+        top: 0%;
+        height: 66vh;
+        display: flex;
+        align-items: center;  
+    }
+    #pflio
+    {
+        border-radius: 1rem;
+    }
+    .navigation,#followus,#contact
+    {
+        margin: 0%;
+    }
+    #myinfomain,#topbody,#myImg,#cv,#suggestion,#projectbox,#msgbox,#submit
+    {
+        position: absolute;
+    }
+    #topbody
+    {
+        top: 67%;  
+        height: 80vh;  
+    }
+    #myinfomain
+    {
+        top: 19%;
+        left: 1%;
+    }
+    #myImg
+    {
+        top: 50%;
+        left: 0%;
+    }
+    #cv
+    {
+        top: 2%;
+    }
+    .photo
+    {
+        width: 80%;
+        height: 80%;
+    }
+    #moreinfo
+    {
+        top: 146%;
+    }
+    #projecttext
+    {
+        top: 199%;
+        text-align: center;
+    }
+    #projectbox
+    {
+        top: 240%;
+    }
+    #suggestion
+    {
+        width: 90%;
+        top: 250%;
+        left: 5%;   
+    }
+    #projectbox
+    {
+        top: 205%;
+        width: 100%;
+        height: 40vh;
+    }
+    .projectimg
+    {
+        height: 100%;
+    }
+    #msgbox
+    {
+        top: 13%;
+    }
+    #submit
+    {
+        top: 73%;
+    }
+    .logo
+    {
+        position: absolute;
+    }
+    #fb
+    {
+        left: 10%;
+    }
+    #yt
+    {
+        left: 30%;
+    }
+    #home:hover,#inquiry:hover
+    {
+        background-color: #000000;
+        color: #a6ff00;
+        border-radius: 1rem;
+    }
+    #profile:hover
+    {
+        transform: scale(1);
+    }
+    
+    
+}
+
+
+
+
+
